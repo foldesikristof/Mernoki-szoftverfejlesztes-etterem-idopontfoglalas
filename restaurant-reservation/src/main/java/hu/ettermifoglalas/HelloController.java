@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/api/hello")
     public String hello() {
-        return "Az éttermi asztalfoglaló rendszer működik!";
+        return "Az éttermi asztalfoglaló rendszer működik a Gabi branchen!";
     }
 }
