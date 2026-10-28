@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0abdeed1-819e-41af-be4d-3005b2c34c39" name="Changes" comment="foglalások listázása">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant-reservation/src/main/resources/static/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant-reservation/src/main/resources/static/admin.html" afterDir="false" />
-    </list>
+    <list default="true" id="0abdeed1-819e-41af-be4d-3005b2c34c39" name="Changes" comment="asztalok kezelése" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.admin.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -84,6 +82,7 @@
     <MESSAGE value="admin.html váz, és feljéc" />
     <MESSAGE value="statisztikák mutatása" />
     <MESSAGE value="foglalások listázása" />
-    <option name="LAST_COMMIT_MESSAGE" value="foglalások listázása" />
+    <MESSAGE value="asztalok kezelése" />
+    <option name="LAST_COMMIT_MESSAGE" value="asztalok kezelése" />
   </component>
 </project>
