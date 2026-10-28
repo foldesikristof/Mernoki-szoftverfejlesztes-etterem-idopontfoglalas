@@ -36,6 +36,38 @@
             <div class="stat-number" id="confirmedCount">–</div>
         </div>
     </section>
+    <section class="panel">
+        <h2>Foglalások</h2>
+        <div class="toolbar">
+            <input id="search" type="search" placeholder="Keresés név vagy e-mail alapján">
+            <input id="dateFilter" type="date" title="Szűrés dátum alapján">
+            <select id="statusFilter">
+                <option value="">Minden állapot</option>
+                <option value="PENDING">Függőben</option>
+                <option value="CONFIRMED">Megerősítve</option>
+                <option value="CANCELLED">Lemondva</option>
+            </select>
+            <button id="refreshButton" type="button">Frissítés</button>
+            <button id="clearFilters" class="secondary" type="button">Szűrők törlése</button>
+        </div>
+        <div id="reservationMessage" class="message" role="status"></div>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th>Vendég</th>
+                    <th>Időpont</th>
+                    <th>Asztal</th>
+                    <th>Létszám</th>
+                    <th>Kérés</th>
+                    <th>Állapot</th>
+                    <th>Műveletek</th>
+                </tr>
+                </thead>
+                <tbody id="reservationRows"></tbody>
+            </table>
+        </div>
+    </section>
 </main>
 
 </body>
