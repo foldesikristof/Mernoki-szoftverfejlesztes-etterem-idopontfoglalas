@@ -67,7 +67,50 @@
                 <tbody id="reservationRows"></tbody>
             </table>
         </div>
-    </section>
+    </section><section class="panel">
+    <h2>Asztalok kezelése</h2>
+    <p class="muted">Új asztal felvétele vagy meglévő asztal módosítása.</p>
+
+    <form id="tableForm">
+        <div class="form-grid">
+            <div class="field">
+                <label for="tableNumber">Asztalszám</label>
+                <input id="tableNumber" type="number" min="1" max="100" required>
+            </div>
+            <div class="field">
+                <label for="capacity">Férőhely</label>
+                <input id="capacity" type="number" min="1" max="20" required>
+            </div>
+            <label class="check">
+                <input id="nearWindow" type="checkbox"> Ablak mellett
+            </label>
+            <label class="check">
+                <input id="accessible" type="checkbox"> Akadálymentes
+            </label>
+        </div>
+        <button id="saveTableButton" type="submit">Asztal hozzáadása</button>
+        <button id="cancelEditButton" class="secondary" type="button" hidden>
+            Mégse
+        </button>
+    </form>
+
+    <div id="tableMessage" class="message" role="status"></div>
+
+    <div class="table-wrapper">
+        <table>
+            <thead>
+            <tr>
+                <th>Asztal</th>
+                <th>Férőhely</th>
+                <th>Ablak mellett</th>
+                <th>Akadálymentes</th>
+                <th>Műveletek</th>
+            </tr>
+            </thead>
+            <tbody id="tableRows"></tbody>
+        </table>
+    </div>
+</section>
 </main>
 
 </body>
